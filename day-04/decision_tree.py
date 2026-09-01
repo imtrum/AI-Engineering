@@ -82,7 +82,7 @@ grid_search = GridSearchCV(
 
 grid_search.fit(X,y)
 
-print(grid_search.best_params_)
+print(grid_search.best_estimator_)
 print(grid_search.best_score_)
 
 

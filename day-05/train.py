@@ -1,10 +1,9 @@
 import pandas as pd
 from sqlalchemy import select
 import ai_engineering.models as models
-from ai_engineering.data.database import SessionLocal
+from ai_engineering.data.database import db
 
 
-db = SessionLocal()
 
 statement = select(models.Customer)
 result = db.execute(statement)

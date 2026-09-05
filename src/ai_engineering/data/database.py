@@ -25,7 +25,7 @@ SessionLocal = sessionmaker(
 class Base(DeclarativeBase):
     pass
 
-
+db = SessionLocal()
 
 # data = {
 # "age": [

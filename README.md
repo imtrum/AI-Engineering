@@ -24,6 +24,8 @@ This repository contain my AI Engineering learning journey
 - [x] Day 2 — Scikit-learn fundamentals
 - [x] Day 3 — Preprocessing & Pipelines
 - [x] Day 4 — Model Evaluation & Linear Algebra
+- [x] Day 5 - Use database, connect to pgAdmin 4
+- [x] Day 6 - Async, Await, type hints
 
 ## Environment
 

@@ -46,7 +46,7 @@ numerical_pipeline = Pipeline([
 ])
 categorical_pipeline= Pipeline([
                         ("imputer",SimpleImputer(strategy="most_frequent")),
-                        ("scaler",OneHotEncoder())
+                        ("encoder",OneHotEncoder())
 ])
 
 preprocessor = ColumnTransformer([
